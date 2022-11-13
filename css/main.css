@@ -1,0 +1,43 @@
+* {box-sizing: border-box;}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-color: lightgray;
+
+}
+/* Contenedor main */
+.contenedor {
+    width: 100%;
+    max-width: 750px;
+    min-width: 320px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px black;
+    
+}
+/*Saludo article */
+.saludo {
+   border: solid;
+   text-align: center;
+   border-radius: 20px;
+   background-color: purple;
+}
+/*button*/
+.saludo button {
+   padding: 1rem 2rem;
+   background-color: orange;
+   font-size: 1.5rem;
+   border-radius: 10px;
+   margin-bottom: 2rem;
+   border: solid;
+}
